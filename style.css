@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.campos {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 140px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes button {
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    list-style-position: inside;
+    text-align: center;
+}
